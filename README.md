@@ -4,7 +4,7 @@ A desktop Sudoku game built with [Dear PyGui](https://github.com/hoffstadt/DearP
 dragging number tiles onto the board. Includes a built-in puzzle generator, two grading modes,
 pen/pencil marks, and sound effects.
 
-![Retro color palette](resources/rocket_monkey_logo.png)
+![Welcome screen](docs/screenshots/welcome-screen.png)
 
 ## Features
 
@@ -48,6 +48,8 @@ maps** (and **Stop creating maps** to end the run). It keeps appending new grids
 `valid_maps.txt` for as long as it runs.
 
 ## The pen/pencil mechanic
+
+![In-game board with pen and pencil marks](docs/screenshots/gameplay.png)
 
 Each board row has two draggable number tiles docked to the right of the grid: a pen version and a
 pencil version, for the digit matching that row. Drag one onto any empty cell to play it:
